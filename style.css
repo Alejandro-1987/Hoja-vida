@@ -1,0 +1,115 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background: lightcyan;
+    min-height: 100vh;
+}
+
+.section{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+   background: whitesmoke;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+.section .izquierdo{
+    position: relative;
+    background:  rgb(3, 181, 246);
+    padding: 40px;
+}
+
+
+img{
+    max-width: 100%;
+   display: block;   
+   border-radius:  5rem;
+
+}
+
+.contacto ul
+{
+position: relative;
+}
+.contacto ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contacto ul li .icono
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 16px;
+    color: rgb(20, 20, 108);
+}
+
+.progreso .porcentaje
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(3, 3, 140);
+    display: block;
+    margin-top: 5px;
+}
+
+.progreso .porcentaje div
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    background: rgb(5, 251, 251);
+}
+
+
+
+
+
+
+
+.section .derecho{
+    position: relative;
+    background:  whitesmoke;
+    padding: 40px;
+}
+
+.descripcion 
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.formacion
+{
+    position: relative;
+}
+
+.formacion  ol li
+{
+    position: relative;
+    list-style: none;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+
